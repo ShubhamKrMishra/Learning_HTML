@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration Form</title>
+  </head>
+  <body>
+    <table>
+      <caption>
+        <strong>Registration Form</strong>
+      </caption>
+      <form action="">
+        <tr>
+          <td><label for="fname">First Name</label></td>
+          <td><input type="text" id="fname" name="fname" /></td>
+        </tr>
+        <tr>
+          <td><label for="lname">Last Name</label></td>
+          <td><input type="text" id="lname" name="lname" /></td>
+        </tr>
+        <tr>
+          <td><label for="address">Address</label></td>
+          <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+          <td><label for="mob">Mobile No.</label></td>
+          <td><input type="tel" id="mob" name="mobile" /></td>
+        </tr>
+        <tr>
+          <td><label for="email">Mail Id</label></td>
+          <td><input type="email" id="email" name="email" /></td>
+        </tr>
+        <tr>
+          <td><label for="country">Country</label></td>
+          <td>
+            <input id="country" list="con" name="country" />
+            <datalist id="con">
+              <option value="India">India</option>
+              <option value="China">China</option>
+              <option value="Nepal">Nepal</option>
+              <option value="Bhutan">Bhutan</option>
+              <option value="Sri Lanka">Sri Lanka</option>
+            </datalist>
+          </td>
+        </tr>
+        <tr>
+          <td><label>Language Known</label></td>
+          <td>
+            <input type="checkbox" name="Language" value="English" />English
+            <input type="checkbox" name="Language" value="Hindi" />Hindi
+            <input type="checkbox" name="Langugage" value="Telgu" />Telgu
+          </td>
+        </tr>
+        <tr>
+          <td><label for="">Gender</label></td>
+          <td>
+            <input type="radio" name="gender" value="Male" />Male
+            <input type="radio" name="gender" value="Female" />Female
+          </td>
+        </tr>
+        <tr>
+          <td><label for="hobbies">Hobbies</label></td>
+          <td>
+            <input id="hobbies" list="hob" name="hobbies" />
+            <datalist id="hob">
+              <option value="Playing Chess">Playing Chess</option>
+              <option value="Basketball">Basketball</option>
+              <option value="Cricket">Cricket</option>
+              <option value="Badminton">Badminton</option>
+            </datalist>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="submit" value="Submit" />&nbsp; &nbsp; <input type="reset" value="Reset" />
+            
+          </td>
+        </tr>
+      </form>
+    </table>
+  </body>
+</html>
+
